@@ -50,7 +50,7 @@ This approach to defining colors can be described as a **flexible theming system
 		/* Text (foreground calculated below based on --theme-fg) */
 		--fg-brightness: 9%; /* Text brightness, 0% - pure black */
 		--theme-fg: var(--hue) var(--saturation) var(--fg-brightness); /* Base color for text */
-		--theme-text: var(--theme-color-550); /* Text color */
+		--theme-text: var(--theme-color-250); /* Text color */
 
 		/*** SECONDARY COLORS (External links, neutral accent, quotes) ***/
 		--theme-link: var(--hue) 97% 31%; /* External link color */
