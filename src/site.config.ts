@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Artem Kutsan",
+	author: "Esteban Ramos Chavarriaga",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
 		locale: "en-GB",
@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	// Used as the default description meta property and webmanifest description
-	description: "An opinionated starter theme for Astro",
+	description: "ASOMUCIQ",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
@@ -26,18 +26,18 @@ export const siteConfig: SiteConfig = {
 export const menuLinks: { path: string; title: string }[] = [
 	{
 		path: "/",
-		title: "Home",
+		title: "Inicio",
 	},
 	{
 		path: "/about/",
-		title: "About",
+		title: "Sobre Nostros",
 	},
 	{
 		path: "/posts/",
-		title: "Blog",
+		title: "Publicaciones",
 	},
 	{
 		path: "/notes/",
-		title: "Notes",
+		title: "Líneas de Acción",
 	},
 ];
