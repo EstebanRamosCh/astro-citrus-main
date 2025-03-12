@@ -29,32 +29,28 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 		<div class="absolute top-[-20%] left-[-50%] w-[85%] h-full bg-gradient-to-b from-indigo-300 via-orange-300 to-transparent rounded-full opacity-60 dark:opacity-10"></div>
 		<div class="absolute top-[-20%] right-[-50%] w-[85%] h-full bg-gradient-to-b from-orange-300 via-indigo-300 to-transparent rounded-full opacity-60 dark:opacity-10"></div>
 	</div>
-	<section class="max-w-xl mx-auto relative flex items-center justify-center h-screen -mt-24">
+	<!-- Hero Section -->
+	<section class="max-w-xl mx-auto relative flex items-center justify-center">
 		<div class="w-full text-center">
-			<span class="title text-3xl bg-gradient-to-r from-accent-two/85 via-accent-one/85 to-accent-two/85 dark:from-accent-two dark:via-accent-one dark:to-accent-two bg-clip-text text-transparent">
-				ASOMUCIQ
-			</span>
+			<div class="pt-10 pb-10 flex justify-center">
+				<img src="/logo2.png" class="object-contain drop-shadow-[2.5px_2.5px_2.5px_rgba(0,0,0,0.35)]" alt="Logo">
+			</div>
 			<p class="mt-4 mb-4 text-lg font-medium">
 				La organización que se dedica a la defensa y promoción de los derechos humanos de estas mujeres, impulsando su empoderamiento económico, social y cultural mediante programas que mejoren su calidad de vida, educación, acceso a oportunidades laborales y desarrollo cultural.
 			</p>
 			<div class="flex justify-center space-x-4 mt-4">
 				<a href="/posts/" class="relative flex items-center justify-center h-8 px-4 rounded-lg shadow-lg hover:brightness-110 transition-all bg-gradient-to-r from-accent-one to-accent-two">
-					<span class="text-bgColor font-semibold">
-						Contáctanos
-					</span>
+					<span class="text-bgColor font-semibold">Contáctanos</span>
 				</a>
-
 				<a href="/notes/wake-up/" class="relative flex items-center justify-center h-8 px-4 rounded-lg shadow-lg bg-special-lighter hover:brightness-110 hover:bg-special-lightest">
-					<span class="bg-clip-text text-transparent font-semibold bg-gradient-to-r from-accent-one to-accent-two">
-						Conocénos
-					</span>
+					<span class="bg-clip-text text-transparent font-semibold bg-gradient-to-r from-accent-one to-accent-two">Conócenos</span>
 				</a>
 			</div>
 		</div>
 	</section>
 
 	<!-- Posts Section -->
-	<section aria-label="Blog post list" class="'mt-[-100vh] pt-[100vh]'">
+	<section aria-label="Blog post list" class="mt-16">
 		<h2 class="title mb-6 text-xl text-accent-two">
 			<a href="/posts/">Nuestra Historia</a>
 		</h2>
