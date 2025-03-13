@@ -1,41 +1,17 @@
 ---
-title: "Local .gitignore"  
-description: "How to create an additional .gitignore file"  
-publishDate: "05 Mar 2025"  
-tags: ["git", "gitignore"]  
+title: "Trabajo Fundacional"  
+description: "Preexistencia (Aproximadamente 9 años antes de 2017)"  
+publishDate: "05 Mar 2017"  
+tags: ["Origenes", "Inicios"]  
 draft: true
 ---
 
-## How to create `.local.gitignore` that is not synchronized with Git?
+## Preexistencia y Trabajo Fundacional
 
-1. **Create the `.local.gitignore` file**  
-   ```bash
-   touch .local.gitignore
-   ```
+1. **Un grupo de mujeres realiza trabajo de apoyo a mujeres campesinas, víctimas del conflicto armado, madres cabeza de hogar y mujeres en estado de vulnerabilidad.**  
 
-2. **Add it to `.git/info/exclude`** (so Git applies it locally)  
-   ```bash
-   echo ".local.gitignore" >> .git/info/exclude
-   ```
 
-3. **Configure Git to treat `.local.gitignore` as `.gitignore`**  
-   ```bash
-   git config --local core.excludesfile .local.gitignore
-   ```
-
-Now **`.local.gitignore` will work like a regular `.gitignore`, but only for you**.  
-
-## How does it work?
-- `.local.gitignore` is not added to the repository.  
-- It is applied **only locally** on your computer.  
-- It works **like `.gitignore`**, but other developers don't have it.  
-- Git **does not see this file** thanks to `.git/info/exclude`.  
-
-**Now you can add local files to it**:  
-```bash
-echo "my-secret-file.txt" >> .local.gitignore
-echo "debug_logs/" >> .local.gitignore
-```
+2. **Enfocan sus esfuerzos en la búsqueda de soluciones, el restablecimiento y rescate de derechos, y el mejoramiento de la calidad de vida**
 
 :::caution
 Before performing a commit rollback, you must manually backup the files listed in `.local.gitignore`. This is because files ignored by `.local.gitignore` are not tracked by Git and will be lost if you rollback the commit. Git will not restore these files as they were not committed or staged.
