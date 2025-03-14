@@ -1,6 +1,9 @@
 ---
 id: citrus-docs
-title: "Citrus Docs"
-description: "Astro Citrus documentation outlines key aspects of the template, describing its core functionality for blog management and project documentation setup"
+title: "Contacto"
+description: ""
 featured: true
 ---
+- **Dirección: Cra 4 #19-17 Br. San Vicente / Quibdó - Chocó**
+- **Correo: asomuciq@gmail.com**
+- **Celular: 3137457882 / 3136046162**
