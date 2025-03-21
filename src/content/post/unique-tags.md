@@ -1,12 +1,16 @@
 ---
-title: "Unique tags validation"
-publishDate: "30 January 2023"
-description: "This post is used for validating if duplicate tags are removed, regardless of the string case"
-tags: ["blog", "blog", "Blog", "test", "bloG", "Test", "BLOG"]
+title: "Marcha en favor de la Reforma Agraria"
+publishDate: "27 September 2023"
+description: "El 27 de septiembre de 2023, acompañamos la marcha nacional en favor de la Reforma Agraria desde la ciudad de Medellín."
+tags: ["marcha", "agro", "activismo", "reforma"]
 ---
 
-## This post is to test zod transform
+## Marcha en favor de la Reforma Agraria
 
-If you open the file `src/content/post/unique-tags.md`, the tags array has a number of duplicate blog strings of various cases.
+El 27 de septiembre de 2023, acompañamos la marcha nacional en favor de la Reforma Agraria desde la ciudad de Medellín.
 
-These are removed as part of the removeDupsAndLowercase function found in `src/content/config.ts`.
+![Marcha en favor de la Reforma Agraria](/images/imagen51.png)
+
+![Marcha en favor de la Reforma Agraria 2](/images/imagen52.png)
+
+![Marcha en favor de la Reforma Agraria 3](/images/imagen53.png)

@@ -1,22 +1,15 @@
 ---
-title: "Example OG Social Image"
-publishDate: "27 January 2023"
-description: "An example post for Astro Citrus, detailing how to add a custom social image card in the frontmatter"
-tags: ["example", "blog", "image"]
+title: "Entrega de sillas de ruedas"
+publishDate: "9 October 2023"
+description: "Entrega de sillas de ruedas y otras ayudas en el barrio Futuro 2, Quibdó"
+tags: ["silla", "donacion", "social"]
 ogImage: "/social-card.png"
 ---
 
-## Adding your own social image to a post
+## Entrega de Silla de Ruedas
 
-This post is an example of how to add a custom [open graph](https://ogp.me/) social image, also known as an OG image, to a blog post.
-By adding the optional ogImage property to the frontmatter of a post, you opt out of [satori](https://github.com/vercel/satori) automatically generating an image for this page.
+El día 09 de octubre de la presente anualidad, nos dirigimos hacia la zona norte de la ciudad de Quibdó; para ser mas precisos, al barrio El Futuro 2 y llevamos ayudas a dos personas en condición de vulnerabilidad.
 
-If you open this markdown file `src/content/post/social-image.md` you'll see the ogImage property set to an image which lives in the public folder[^1].
+![Entrega de Silla de Ruedas](/images/imagen61.png)
 
-```yaml
-ogImage: "/social-card.png"
-```
-
-You can view the one set for this template page [here](http://astrocitrus.artemkutsan.pp.ua/social-card.png).
-
-[^1]: The image itself can be located anywhere you like.
+![Entrega de Silla de Ruedas 2](/images/imagen62.png)
