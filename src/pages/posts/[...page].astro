@@ -35,13 +35,13 @@ const meta = {
 const paginationProps = {
 	...(page.url.prev && {
 		prevUrl: {
-			text: "← Previous Page",
+			text: "← Página Previa",
 			url: page.url.prev,
 		},
 	}),
 	...(page.url.next && {
 		nextUrl: {
-			text: "Next Page →",
+			text: "Próxima Página →",
 			url: page.url.next,
 		},
 	}),
@@ -76,7 +76,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 				))
 			}
 		</section>
-		{
+		<!-- {
 			!!uniqueTags.length && (
 				<aside class="md:min-w-[14rem] md:max-w-[14rem] md:basis-[14rem]">
 					<h4 class="title mb-4 flex gap-2">
@@ -117,7 +117,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 					*/}
 				</aside>
 			)
-		}
+		} -->
 	</div>
 	<Pagination {...paginationProps} />
 </PageLayout>
